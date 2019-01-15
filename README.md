@@ -1,4 +1,4 @@
-# object-detection-tensorflow-on-mle
+# Counting people in images with Cloud Function, BigQuery, and TensorFlow Object Detetion API model
 
 This project allows you to connect images uploaded to Google Cloud Storage, and setup and trigger to cloud function, which is able to send the image binary to the Cloud 
 Machine Learning Engine on GCP with a pretrained Object Detection API model setup. This model is able to identify 90+ objects like vehicles, trees, zebras, cups...
