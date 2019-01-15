@@ -15,3 +15,7 @@ Here are the steps of how to get this ML pipeline up and running:
 
 ![alt text](https://github.com/tingtingtwice/object-detection-tensorflow-on-mle/blob/master/couple.jpg)
 ![alt text](https://github.com/tingtingtwice/object-detection-tensorflow-on-mle/blob/master/frisbee.jpg)
+
+
+DataStudio Report:
+https://datastudio.google.com/open/14ZGPdRRYoHz2df4NWBzNgaJzSeGO6kIP
