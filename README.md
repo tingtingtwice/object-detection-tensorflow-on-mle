@@ -1,8 +1,9 @@
 # Counting People with TensorFlow Object Detection API
 
-This project allows you to connect images uploaded to Google Cloud Storage, and setup and trigger to cloud function, which is able to send the image binary to the Cloud Machine Learning Engine on GCP with a pretrained Object Detection API model setup. This model is able to identify 90+ objects like vehicles, trees, zebras, cups...
-This proof of concept project counts the number of people appeared in an image and record its meta data and save to Google BigQuery.
-Part of the transformation in cloud function also puts boundary boxes around the identified objects, and save that in a results folder in GCS(Google Cloud Storage)
+This project allows you to connect images uploaded to Google Cloud Storage, and setup and trigger to cloud function, which is able to send the image binary to the Cloud Machine Learning Engine on GCP with a pretrained Object Detection API model setup. 
+- his model is able to identify 90+ objects like vehicles, trees, zebras, cups...So feel free to repurpose or even further train it to identify other objects
+- This proof of concept project counts the number of people appeared in an image and record its meta data and save to Google BigQuery.
+- Part of the transformation in cloud function also puts boundary boxes around the identified objects, and save that in a results folder in GCS (Google Cloud Storage)
 
 Here are the steps of how to get this ML pipeline up and running:
 
