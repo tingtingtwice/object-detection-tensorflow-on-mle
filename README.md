@@ -12,3 +12,6 @@ Here are the steps of how to get this ML pipeline up and running:
 3. Setup a Cloud Function trigger on the input folder on GCS, such that when new files are added this funciton is initiated
 4. Upload the pretrained TensorFLow model (ssd_mobilenet_v1_coco_2018_01_28/saved_model/saved_model.pb) to Cloud ML Engine.
 5. Create a BigQuery dataset and table to store the people count data written from Cloud Function
+
+![alt text](https://github.com/tingtingtwice/object-detection-tensorflow-on-mle/blob/master/couple.jpg)
+![alt text](https://github.com/tingtingtwice/object-detection-tensorflow-on-mle/blob/master/frisbee.jpg)
