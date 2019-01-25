@@ -11,6 +11,13 @@ Here are the steps of how to get this ML pipeline up and running:
 2. Create Cloud Function by using the index.js and package.json files here (NodeJS 6)
 3. Setup a Cloud Function trigger on the input folder on GCS, such that when new files are added this funciton is initiated
 4. Upload the pretrained TensorFLow model (ssd_mobilenet_v1_coco_2018_01_28/saved_model/saved_model.pb) to Cloud ML Engine.
+  - Cloud ML Engine settings:
+    - Python Version: 2.7
+    - Framework: TensorFlow
+    - Framework Version: 1.12.0
+    - ML Runtime Version: 1.12
+    - Machine Type: Single Core
+    - Model URI: (GCS bucket url)
 5. Create a BigQuery dataset and table to store the people count data written from Cloud Function
 
 ![alt text](https://github.com/tingtingtwice/object-detection-tensorflow-on-mle/blob/master/architectual_diagram.png)
